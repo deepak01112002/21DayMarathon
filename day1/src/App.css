@@ -1,0 +1,17 @@
+.data{
+   border: 1px solid red;
+   width: 50%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+}
+
+.star {
+  cursor: pointer;
+  color: gray;
+  font-size: 20vh;
+}
+
+.star.selected {
+  color: gold;
+}
