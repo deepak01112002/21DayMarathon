@@ -1,0 +1,12 @@
+.content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s ease;
+    cursor: pointer;
+    user-select: none;
+}
+
+.content.active {
+    max-height: 1000px;
+}
+
